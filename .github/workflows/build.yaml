@@ -13,7 +13,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          path: build
+          path: dist
           name: build-files
   deploy:
     needs: build
